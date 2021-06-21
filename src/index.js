@@ -1,32 +1,7 @@
 import homePage from './home';
 import navbar from './nav';
 import menuPage from './menu';
-
-
-
-// const body = document.getElementsByTagName('body')[0];
-
-
-// const contentDiv = document.getElementById('content');
-
-// const registerEvents = () => {
-//     const homes = document.getElementById('home');
-//     const menus = document.getElementById('menu');
-
-// contentDiv.append(navbar());
-
-// homes.addEventListener('click', () => {
-// contentDiv.append(home());
-// });
-
-
-// menus.addEventListener('click', () => {
-   
-//     contentDiv.appendChild(menu());
-//   });
-// };
-
-// registerEvents();
+import contactPage from './contact';
 
 const mainContainer = document.createElement('div');
 mainContainer.id = 'content';
@@ -42,7 +17,7 @@ body.appendChild(homePage());
 const registerEvents = () => {
   const home = document.getElementById('home');
   const menu = document.getElementById('menu');
- 
+  const contact = document.getElementById('contact');
 
   menu.addEventListener('click', () => {
     body.innerHTML = '';
@@ -54,6 +29,10 @@ const registerEvents = () => {
     body.appendChild(homePage());
   });
 
+  contact.addEventListener('click', () => {
+    body.innerHTML = '';
+    body.appendChild(contactPage());
+  });
 
 };
 

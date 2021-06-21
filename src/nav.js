@@ -1,13 +1,10 @@
 const navbar = () => {
     const navLinks = ['Home', 'Menu', 'Contact'];
-    // navLinks.forEach((item, index)=>{
-    //     item.id = index+1;
-    //    });
+
     const nav = document.createElement('ul');
     nav.className = 'nav  pb-2';
     nav.innerHTML += "<h5 class='Prime Cafe</h5>";
   
-    // navLinks.forEach((link, index) => {
       const li = document.createElement('li');
       li.className = 'nav-item ';
       const a = document.createElement('a');
@@ -28,6 +25,15 @@ const navbar = () => {
       lii.append(aa);
       nav.append(lii);
   
+      const liii = document.createElement('li');
+      liii.className = 'nav-item ';
+      const aaa = document.createElement('a');
+     
+      aaa.innerHTML = 'Contact';
+      aaa.className = 'nav-link';
+      aaa.id = 'contact';
+      liii.append(aaa);
+      nav.append(liii);
     return nav;
   };
   
