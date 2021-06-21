@@ -1,10 +1,9 @@
 const contactPage = () => {
-
-    const contactSection = document.createElement('div');
-    const form = document.createElement('form');
-    form.className = 'form'
-    form.actinon = '#';
-    form.innerHTML = `
+  const contactSection = document.createElement('div');
+  const form = document.createElement('form');
+  form.className = 'form';
+  form.actinon = '#';
+  form.innerHTML = `
     <div>
       <div class="container">
           <div class="row justify justify-content-center">
@@ -36,20 +35,19 @@ const contactPage = () => {
       </div>
   </div>
     `;
-    
-            const banner = document.createElement('div');
-   
-            banner.className = "container-fluid contact-banner";
-         
-            const heading = document.createElement('h2');
-            heading.className = 'text-center contact-text';
-            heading.innerText = 'Contact Us';
-        
-            banner.appendChild(heading);
-            contactSection.appendChild(banner);
-    contactSection.appendChild(form);
-    return contactSection
-};
 
+  const banner = document.createElement('div');
+
+  banner.className = 'container-fluid contact-banner';
+
+  const heading = document.createElement('h2');
+  heading.className = 'text-center contact-text';
+  heading.innerText = 'Contact Us';
+
+  banner.appendChild(heading);
+  contactSection.appendChild(banner);
+  contactSection.appendChild(form);
+  return contactSection;
+};
 
 export default contactPage;

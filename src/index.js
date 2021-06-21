@@ -1,7 +1,7 @@
-import homePage from './home';
-import navbar from './nav';
-import menuPage from './menu';
-import contactPage from './contact';
+import homePage from './home.js';
+import navbar from './nav.js';
+import menuPage from './menu.js';
+import contactPage from './contact.js';
 
 const mainContainer = document.createElement('div');
 mainContainer.id = 'content';
@@ -33,7 +33,6 @@ const registerEvents = () => {
     body.innerHTML = '';
     body.appendChild(contactPage());
   });
-
 };
 
 registerEvents();
