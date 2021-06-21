@@ -165,7 +165,7 @@ return menuSection;
             const newMenu = document.createElement('div');
             const banner = document.createElement('div');
    
-            banner.className = "container-fluid";
+            banner.className = "container-fluid menu-banner";
          
             const heading = document.createElement('h2');
             heading.className = 'text-center menu-text';

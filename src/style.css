@@ -11,6 +11,22 @@
     box-sizing: border-box;
 }
 
+.contact-banner{
+    height: 250px !important;
+    padding-top: 40px !important;
+}
+
+.menu-banner{
+    height: 250px !important;
+    padding-top: 40px !important; 
+}
+
+
+.form{
+    background-color: rgb(226, 226, 226);
+    padding-top: 80px;
+    padding-bottom: 100px;
+}
 .title-section{
     padding-top: 50px;
     color: brown;
