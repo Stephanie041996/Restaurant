@@ -44,6 +44,7 @@
 
  
   .nav-link{
+      
       color: black !important;
      
 
@@ -57,8 +58,35 @@
       width: 650px;
       height: 500px;
   }
+
+  .menu-item{
+ display: flex;
+ flex-direction: row;
+ gap:100px
+  }
+
+  .menu-item-large{
+    display: flex;
+    flex-direction: row;
+    padding: 100px;
+    justify-content: center;
+    gap: 90px;
+     }
+  .row{
+      display: flex;
+      flex-direction: row;
+  }
   /* Responsive layout - makes a one column layout instead of a two-column layout */
-  @media (max-width: 800px) {
+  @media (max-width: 768px) {
+    .menu-item-large{
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+        justify-content: center;
+
+         }
+
+
     .image-about{
         width: 100%;
       

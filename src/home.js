@@ -1,6 +1,7 @@
 import about from './about';
 import specialsSection from './spacials';
 
+
 const home = () => {
 const homeContainer = document.createElement("div");
     
@@ -37,6 +38,7 @@ const homeContainer = document.createElement("div");
 homeContainer.appendChild(specialsSection());
 
 homeContainer.appendChild(about());
+
 
 
 
