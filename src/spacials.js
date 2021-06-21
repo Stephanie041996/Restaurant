@@ -16,7 +16,7 @@ const imageContainer1 = () => {
   const cards = document.createElement('div');
   cards.className = 'card';
   const image = new Image();
-  image.src = '../src/meal3.jpeg';
+  image.src = '../assets/meal3.jpeg';
   image.className = 'image-specials';
   image.style.width = '100%';
 
@@ -33,7 +33,7 @@ const imageContainer2 = () => {
   const cards = document.createElement('div');
   cards.className = 'card';
   const image = new Image();
-  image.src = '../src/meal1.jpeg';
+  image.src = '../assets/meal1.jpeg';
   image.className = 'image-specials';
   image.style.width = '100%';
 
@@ -50,7 +50,7 @@ const imageContainer3 = () => {
   const cards = document.createElement('div');
   cards.className = 'card';
   const image = new Image();
-  image.src = '../src/meal2.jpeg';
+  image.src = '../assets/meal2.jpeg';
   image.className = 'image-specials';
   image.style.width = '100%';
 

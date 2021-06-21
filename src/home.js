@@ -15,24 +15,6 @@ const homePage = () => {
   banner.appendChild(heading);
   homeContainer.appendChild(banner);
 
-  // const specialsSection = document.createElement('div');
-
-  // specialsSection.className = "container";
-
-  // const specials = document.createElement('h3');
-  // specials.className = 'text-center';
-  // specials.innerText = 'Our Specials';
-  // specialsSection.appendChild(specials);
-
-  //   const cards = document.createElement('div')
-  //   cards.className ='row row-cols-1 row-cols-md-3 g-4'
-  //   const columns = document.createElement('div')
-  //   columns.className = 'col figure'
-  //   const image = new Image();
-  //   image.src = "https://i.ibb.co/qMQ3n9k/restaurant.jpg";
-
-  //   specialsSection.appendChild(cards);
-
   homeContainer.appendChild(specialsSection());
 
   homeContainer.appendChild(about());

@@ -1,29 +1,3 @@
-// const breakfastMenu = [{heading: 'Roast Chicken',
-//             price: '$20',
-//             description:'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
-//         },
-//         {heading: 'Roast Chicken',
-//         price: '$20',
-//         description:'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
-//     },
-//     {heading: 'Roast Chicken',
-//             price: '$20',
-//             description:'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
-//         },
-//         {heading: 'Roast Chicken',
-//         price: '$20',
-//         description:'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
-//     },
-//     {heading: 'Roast Chicken',
-//             price: '$20',
-//             description:'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
-//         },
-//         {heading: 'Roast Chicken',
-//         price: '$20',
-//         description:'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
-//     },
-//     ]
-
 const menuLunch = () => {
   const LunchMenu = [{
     head: 'Roast Chicken',
