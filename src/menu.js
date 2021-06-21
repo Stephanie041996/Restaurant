@@ -26,6 +26,7 @@
 //     ]
 
 
+
 const menuLunch = () => {
     const LunchMenu = [{head: 'Roast Chicken', 
     pri: '$20', 
@@ -147,14 +148,33 @@ return menuSection;
     return menuSection;
         };
 
-        const menus  = () => {
+        const menus = () => {
+
             const all = document.createElement('div')
             all.className ='menu-item-large'
+ 
 
+           
             all.appendChild(menuLunch());
             all.appendChild(menuDinner());
 
             return all;
         };
 
-    export default menus;
+        const menuPage = () => {
+            const newMenu = document.createElement('div');
+            const banner = document.createElement('div');
+   
+            banner.className = "container-fluid";
+         
+            const heading = document.createElement('h2');
+            heading.className = 'text-center menu-text';
+            heading.innerText = 'Our Menu';
+        
+            banner.appendChild(heading);
+            newMenu.appendChild(banner);
+            newMenu.appendChild(menus());
+            return newMenu
+        }
+
+    export default menuPage;

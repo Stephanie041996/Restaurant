@@ -2,7 +2,7 @@ import about from './about';
 import specialsSection from './spacials';
 
 
-const home = () => {
+const homePage = () => {
 const homeContainer = document.createElement("div");
     
 
@@ -11,7 +11,7 @@ const homeContainer = document.createElement("div");
     banner.className = "container-fluid ";
  
     const heading = document.createElement('h2');
-    heading.className = 'text-center '
+    heading.className = 'text-center first-page-text'
     heading.innerText = 'Prime Cafe';
 
     banner.appendChild(heading);
@@ -47,5 +47,5 @@ homeContainer.appendChild(about());
 return homeContainer;
 
 };
-export default home;
+export default homePage;
 

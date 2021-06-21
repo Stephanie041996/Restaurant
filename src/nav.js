@@ -1,4 +1,4 @@
-const nav = () => {
+const navbar = () => {
     const navLinks = ['Home', 'Menu', 'Contact'];
     // navLinks.forEach((item, index)=>{
     //     item.id = index+1;
@@ -7,19 +7,28 @@ const nav = () => {
     nav.className = 'nav  pb-2';
     nav.innerHTML += "<h5 class='Prime Cafe</h5>";
   
-    navLinks.forEach((link, index) => {
+    // navLinks.forEach((link, index) => {
       const li = document.createElement('li');
       li.className = 'nav-item ';
       const a = document.createElement('a');
-      a.href = `#${link.toLowerCase()}`;
-      a.innerHTML = link;
+     
+      a.innerHTML = 'Home';
       a.className = 'nav-link';
-      a.id = index+1;
+      a.id = 'home';
       li.append(a);
       nav.append(li);
-    });
+    
+      const lii = document.createElement('li');
+      lii.className = 'nav-item ';
+      const aa = document.createElement('a');
+     
+      aa.innerHTML = 'Menu';
+      aa.className = 'nav-link';
+      aa.id = 'menu';
+      lii.append(aa);
+      nav.append(lii);
   
     return nav;
   };
   
-  export default nav;
+  export default navbar;
