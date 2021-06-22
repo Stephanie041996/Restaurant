@@ -2,6 +2,7 @@ import homePage from './home.js';
 import navbar from './nav.js';
 import menuPage from './menu.js';
 import contactPage from './contact.js';
+import './style.css';
 
 const mainContainer = document.createElement('div');
 mainContainer.id = 'content';
