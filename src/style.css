@@ -1,0 +1,108 @@
+.container-fluid {
+  width: 100%;
+  height: 450px;
+  padding-top: 220px;
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYEbc4IGYsSM8cAHE59ECVZSYf_rC6uvFX6A&usqp=CAU);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  color: white;
+  font-size: 45px !important;
+  box-sizing: border-box;
+}
+
+.contact-banner {
+  height: 250px !important;
+  padding-top: 40px !important;
+}
+
+.menu-banner {
+  height: 250px !important;
+  padding-top: 40px !important;
+}
+
+.form {
+  background-color: rgb(226, 226, 226);
+  padding-top: 80px;
+  padding-bottom: 100px;
+}
+
+.title-section {
+  padding-top: 50px;
+  color: brown;
+  font-size: 30px;
+}
+
+.content {
+  padding: 100px;
+}
+
+.about {
+  display: flex;
+  flex-direction: row;
+}
+
+.specials-row {
+  padding: 80px;
+  display: flex;
+  flex-direction: row;
+  gap: 80px;
+}
+
+.nav {
+  justify-content: center;
+}
+
+.nav-link {
+  color: black !important;
+}
+
+.image-specials {
+  height: 200px;
+}
+
+.image-about {
+  width: 650px;
+  height: 500px;
+}
+
+.menu-item {
+  display: flex;
+  flex-direction: row;
+  gap: 100px;
+}
+
+.menu-item-large {
+  display: flex;
+  flex-direction: row;
+  padding: 100px;
+  justify-content: center;
+  gap: 90px;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+/* Responsive layout - makes a one column layout instead of a two-column layout */
+@media (max-width: 768px) {
+  .menu-item-large {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    justify-content: center;
+  }
+
+  .image-about {
+    width: 100%;
+  }
+
+  .about {
+    flex-direction: column;
+  }
+
+  .specials-row {
+    flex-direction: column;
+  }
+}
