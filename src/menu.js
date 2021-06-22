@@ -31,11 +31,11 @@ const menuLunch = () => {
   },
   ];
   const menuSection = document.createElement('div');
-  menuSection.className = 'section-menu';
-   const titlebreakfast = document.createElement('h3');
-   titlebreakfast.className ='pb-3'
-   titlebreakfast.innerText = 'Breakfast Menu';
-   menuSection.appendChild(titlebreakfast);
+   menuSection.className = 'section-menu';
+    const titlebreakfast = document.createElement('h3');
+    titlebreakfast.className ='pb-3'
+    titlebreakfast.innerText = 'Breakfast Menu';
+    menuSection.appendChild(titlebreakfast);
 
   LunchMenu.forEach((x) => {
     const cards = document.createElement('div');
@@ -101,7 +101,7 @@ const menuDinner = () => {
   const menuSection = document.createElement('div');
   menuSection.className = 'section-menu';
   const titleLunch = document.createElement('h3');
-  titleLunch.className ='pb-3'
+  titleLunch.className = 'pb-3';
   titleLunch.innerText = 'Lunch Menu';
   menuSection.appendChild(titleLunch);
 

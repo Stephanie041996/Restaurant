@@ -3,14 +3,12 @@ const content = () => {
 
   const heading = document.createElement('h3');
   const description = document.createElement('p');
-  description.className = 'about-paragraph'
+  description.className = 'about-paragraph';
 
   section.classList.add('content');
 
   heading.innerText = 'Our Story';
   description.innerText = 'We welcome you to sit back, unwind and appreciate the lovely sights and hints of the ocean while our best gourmet expert sets you up a scrumptious dinner utilizing the best and freshest ingredients.The Aviary Cafe‘s legacy comes from The parent  Restaurant which was built up in 1963. The Aviary Cafe was worked for people in general and has advanced into a combination between exquisite chic and contemporary fine charge.';
-
-
 
   section.appendChild(heading);
   section.appendChild(description);
