@@ -44,7 +44,7 @@
 
 .title-section {
   padding-top: 50px;
-  color: brown;
+  color: black;
   font-size: 50px;
   font-style: italic;
   font-family:
@@ -68,6 +68,7 @@
 .content {
   padding: 100px;
   line-height: 1.9;
+  background-color: rgb(243, 243, 243);
 }
 
 .card {
