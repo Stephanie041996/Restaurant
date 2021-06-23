@@ -17,8 +17,10 @@
   },
   "homepage": "https://github.com/Stephanie041996/Restaurant#readme",
   "devDependencies": {
+    "css-loader": "^5.2.6",
     "html-loader": "^2.1.2",
     "html-webpack-plugin": "^5.3.1",
+    "style-loader": "^2.0.0",
     "stylelint": "^13.13.1",
     "stylelint-config-standard": "^21.0.0",
     "stylelint-csstree-validator": "^1.9.0",
