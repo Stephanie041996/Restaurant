@@ -10,7 +10,7 @@ const homePage = () => {
 
   const heading = document.createElement('h2');
   heading.className = 'text-center first-page-text';
-  heading.innerText = 'Prime Cafe';
+  heading.innerText = 'The Aviary Cafe';
 
   banner.appendChild(heading);
   homeContainer.appendChild(banner);

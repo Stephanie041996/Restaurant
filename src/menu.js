@@ -1,37 +1,41 @@
 const menuLunch = () => {
   const LunchMenu = [{
-    head: 'Roast Chicken',
-    pri: '$20',
-    descript: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+    head: 'The Classic Breakfast',
+    pri: '$35',
+    descript: 'Two pork sausages, two rashers of back bacon, your choice of fried, scrambled or poached free-range eggs, two hash browns, tomato, mushroom and Heinz® baked beans',
   },
   {
-    head: 'Roast Chicken',
-    pri: '$20',
-    descript: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+    head: 'The Veggie Breakfast',
+    pri: '$17',
+    descript: 'Two hash browns, two vegan sausages, tomato, mushroom, spicy sweetcorn fritter, Heinz® baked beans and your choice of fried, scrambled or poached free-range eggs',
   },
   {
-    head: 'Roast Chicken',
-    pri: '$20',
-    descript: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+    head: 'The Vegan Breakfast',
+    pri: '$27',
+    descript: 'Two hash browns, two vegan sausages, tomato, mushroom, Heinz® baked beans, guacamole and a toasted breakfast muffin',
   },
   {
-    head: 'Roast Chicken',
+    head: 'Chicken, Bacon & Waffles',
     pri: '$20',
-    descript: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+    descript: 'Southern-fried chicken breast, a Belgian waffle and back bacon with maple-flavour syrup',
   },
   {
-    head: 'Roast Chicken',
-    pri: '$20',
-    descript: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+    head: 'Buttermilk Pancakes & Bacon',
+    pri: '$18',
+    descript: 'With three rashers of back bacon, drizzled with maple-flavour syrup',
   },
   {
-    head: 'Roast Chicken',
-    pri: '$20',
-    descript: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+    head: 'Eggs Benedict',
+    pri: '$15',
+    descript: 'Toasted breakfast muffin, two poached free-range eggs and back bacon, topped with hollandaise sauce',
   },
   ];
   const menuSection = document.createElement('div');
   menuSection.className = 'section-menu';
+  const titlebreakfast = document.createElement('h3');
+  titlebreakfast.className = 'pb-3';
+  titlebreakfast.innerText = 'Breakfast Menu';
+  menuSection.appendChild(titlebreakfast);
 
   LunchMenu.forEach((x) => {
     const cards = document.createElement('div');
@@ -64,38 +68,42 @@ const menuLunch = () => {
 
 const menuDinner = () => {
   const LunchMenu = [{
-    head: 'Roast Chicken',
-    pri: '$20',
-    descript: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+    head: 'Smoked BBQ Pork Belly',
+    pri: '$26',
+    descript: 'Oak-smoked pork belly, slow-cooked for four hours, with spiked maple glaze, served with mash, green vegetables & bourbon shallot sauce',
   },
   {
-    head: 'Roast Chicken',
+    head: 'Pork Lunch Special',
     pri: '$20',
-    descript: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+    descript: 'Spiked Maple glazed pork belly, a half rack of BBQ ribs and sticky Jim Beam BBQ chicken wings, mango & black bean salsa. Served with mac ‘n’ cheese and dirty fries topped with cheese sauce,crispy onion and bacon flavour crunch',
   },
   {
-    head: 'Roast Chicken',
-    pri: '$20',
-    descript: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+    head: 'The Original Chicken Combo',
+    pri: '$32',
+    descript: 'A quarter portion of our rotisserie chicken and half a rack of ribs glazed in our BBQ sauce. With sage & onion seasoned chips, buttered corn and our speciality chicken gravy',
   },
   {
-    head: 'Roast Chicken',
-    pri: '$20',
-    descript: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+    head: 'BBQ Chicken Stack',
+    pri: '$25',
+    descript: 'A chicken breast with Monterey Jack cheese, BBQ sauce, back bacon and three buttermilk-fried chicken tenders, with chips, slaw and buttered corn',
   },
   {
-    head: 'Roast Chicken',
-    pri: '$20',
-    descript: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+    head: 'Spicy Sweetcorn Fritters',
+    pri: '$15',
+    descript: 'Two smoked Cheddar & chilli sweetcorn fritters, topped with pineapple, mango & black bean salsa, guacamole and two fried free-range eggs. Drizzled with our Spiked Maple sauce',
   },
   {
-    head: 'Roast Chicken',
-    pri: '$20',
-    descript: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+    head: 'Vegan Spinach & Ricotta pasta ',
+    pri: '$27',
+    descript: 'Pasta shells filled with spinach, ricotta and artichoke, in a creamy tomato & basil sauce, topped with feta served with garlic ciabatta doughballs',
   },
   ];
   const menuSection = document.createElement('div');
   menuSection.className = 'section-menu';
+  const titleLunch = document.createElement('h3');
+  titleLunch.className = 'pb-3';
+  titleLunch.innerText = 'Lunch Menu';
+  menuSection.appendChild(titleLunch);
 
   LunchMenu.forEach((x) => {
     const cards = document.createElement('div');
