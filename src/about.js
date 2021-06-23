@@ -23,7 +23,7 @@ const imageContainer = () => {
   const section = document.createElement('div');
 
   const image = new Image();
-  image.src = '../assets/about.jpeg';
+  image.src = aboutimage;
   image.className = 'image-about';
 
   section.appendChild(image);
