@@ -1,3 +1,5 @@
+import aboutimage from './assets/aboutimage.jpeg';
+
 const content = () => {
   const section = document.createElement('div');
 

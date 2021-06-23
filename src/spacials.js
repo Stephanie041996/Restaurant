@@ -1,3 +1,7 @@
+import meal2 from './assets/meal2.jpeg';
+import meal1 from './assets/meal1.jpeg';
+import meal3 from './assets/meal3.jpeg';
+
 const titleSec = () => {
   const title = document.createElement('div');
 
